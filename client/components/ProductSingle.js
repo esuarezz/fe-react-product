@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 const Product = React.createClass({
     render() {
@@ -7,7 +6,6 @@ const Product = React.createClass({
             <div>
                 <h1>
                     A single Product
-
                 </h1>
             </div>
         )
