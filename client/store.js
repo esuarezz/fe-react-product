@@ -3,15 +3,19 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import {browserHistory} from 'react-router'
 
 // import the root reducer
-import rootReducer from './reducers/index'
+import rootReducer from './reducers/index';
 
-import product from './data/product.json';
+import products from './data/products';
+import products2 from './data/products2';
+
 
 //create an object for the default data
 
 const defaultState = {
-    product
-}
+    products
+};
 
-export const store = createStore(rootReducer,defaultState);
-export const history = syncHistoryWithStore(browserHistory,store)
+const store = createStore(rootReducer,defaultState);
+export const history = syncHistoryWithStore(browserHistory,store);
+
+export default store;
