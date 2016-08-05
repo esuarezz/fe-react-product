@@ -1,0 +1,12 @@
+{
+    "name":"name6",
+    "description":"desc",
+    "tags":[
+    "tag1",
+    "tag12"
+],
+    "prices":{
+    "USD":4415,
+        "Euro":159
+}
+}
